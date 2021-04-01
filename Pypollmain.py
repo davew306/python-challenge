@@ -66,9 +66,24 @@ with open(csvpath) as csvfile:
         
     
     # print(WhoisWinner)    
+print ("-------------------------")
 
 
+import sys   
+original_stdout = sys.stdout
+with open('FinalElection.txt', 'w') as f:
+    sys.stdout = f 
+    print ("Election Results")
     print ("-------------------------")
-
+    print("Total Votes: "+str(TotalVoted))
+    print ("-------------------------")
+    print(f"Khan: {str(KhanRounded)}% ({str(KhanVotes)})")
+    print(f"Correy: {str(CorreyRounded)}% ({str(CorreyVotes)})")
+    print(f"Li: {str(LiRounded)}% ({str(LiVotes)})")
+    print(f"O'Tooley: {str(OTooleyRounded)}% ({str(OTooleyVotes)})")
+    print ("-------------------------")
+    print(f"Winner: {Winner}")
+    print ("-------------------------")
+    sys.stdout = original_stdout
 
 
