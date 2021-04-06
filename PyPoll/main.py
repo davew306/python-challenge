@@ -10,7 +10,7 @@ with open(csvpath) as csvfile:
     #storing the header as a variable
     csv_header = next(csvreader)
 
-    #storing the read data as a list
+    #storing the read data as a list to variable DataListElection
     DataListElection = list(csvreader)
     TotalVoted = len(DataListElection)
     print("Total Votes: "+str(TotalVoted))

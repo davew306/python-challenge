@@ -58,7 +58,7 @@ FirstZip = zip(CountM, ChangeData)
 MaxIncrease= max(ChangeData)
 MaxDecrease= min(ChangeData)
 
-#Storing the Max increase and decrease index as variable
+#Storing the Max increase and decrease index as variable MaxItem and Min Item
 for row in FirstZip:
     if row[1] == MaxIncrease:
         MaxItem =row[0]
