@@ -1,7 +1,7 @@
 # python-challenge
 
 This Challenge automates the analysis of two sets of data.
-The first set of data is Bank data named PyBank
+<br>The first set of data is Bank data named PyBank
 
 ![image](https://user-images.githubusercontent.com/72616406/114914868-da976980-9df0-11eb-811b-bb78d045ef45.png)
 
