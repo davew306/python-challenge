@@ -2,7 +2,7 @@
 
 This Challenge automates the analysis of two sets of data.
 <br>
-<h3>The first set of data is Bank data named PyBank </h2>
+The first set of data is Bank data named <h3> PyBank </h2>
 
 ![image](https://user-images.githubusercontent.com/72616406/114914868-da976980-9df0-11eb-811b-bb78d045ef45.png)
 
