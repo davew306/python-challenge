@@ -13,6 +13,8 @@ The second set of data is Election Polling data named PyPoll.
 
 The code for each project is in the 'main.py' file.
 Please see the output of the analysis within txt file within the folder named 'analysis'
+Also the source code of each line is commented with the functions of the code
+
 
 Thank You for viewing this project.
 
