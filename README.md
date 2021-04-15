@@ -1,5 +1,5 @@
 # python-challenge
-Hello,
+
 This Challenge automates the analysis of two sets of data.
 The first set of data is Bank data named PyBank
 
